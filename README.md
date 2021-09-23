@@ -12,4 +12,9 @@ What's included in this repository:
   * CRISPR-AMR-test.ipynb: a python notebook for statistical testing if CRISPR-Cas containing isolates tend to have fewer AMR genes
   * lib/build_spacer2mge_network.py: script that takes spacer blast outputs and spacer cdhit outputs and constructs a MGE:spacer network
 
+* Example: build MGE:spacer network
+
+  >build_spacer2mge_network.py --phage blast_output/example_phages.filtered.derep.m8 --plasmid blast_output/example_plasmids.filtered.derep.m8 -c cdhit_out/example_cdhit0.85.clstr -o example.gml
+
+
 Reference: Comparison of CRISPR–Cas immune systems in healthcare-related pathogens" by Kate Mortensen, Tony Lam and Yuzhen Ye (submitted)

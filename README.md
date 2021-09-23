@@ -14,7 +14,11 @@ What's included in this repository:
 
 * Example: build MGE:spacer network
 
-  >build_spacer2mge_network.py --phage blast_output/example_phages.filtered.derep.m8 --plasmid blast_output/example_plasmids.filtered.derep.m8 -c cdhit_out/example_cdhit0.85.clstr -o example.gml
+  > python lib/build_spacer2mge_network.py \\
+  >     --phage blast_output/example_phages.filtered.derep.m8 \\
+  >     --plasmid build_network_example/blast_output/example_plasmids.filtered.derep.m8 \\
+  >     -c build_network_example/cdhit_out/example_cdhit0.85.clstr \\
+  >     -o build_network_example/example.gml
 
 
 Reference: Comparison of CRISPR–Cas immune systems in healthcare-related pathogens" by Kate Mortensen, Tony Lam and Yuzhen Ye (submitted)
